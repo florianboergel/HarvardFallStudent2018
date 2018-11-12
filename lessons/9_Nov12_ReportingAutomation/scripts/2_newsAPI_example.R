@@ -1,6 +1,6 @@
 #' Author: Ted Kwartler
 #' Data: 11-11-18
-#' Purpose: Demonstrate getting XML API information
+#' Purpose: Demonstrate getting json API information
 
 # Libraries
 library(jsonlite)
