@@ -29,18 +29,18 @@ pptx <- add_slide(pptx,
 # Add the title
 pptx <- ph_with_text(pptx, 
                      type = "title", 
-                     str = 'Slide Title' )
+                     str = 'Ted Slide Title' )
 
 # Right side title
 pptx <- ph_with_text(pptx, 
                      type  = "body", 
-                     str   = 'section_v1',
+                     str   = 'section_v1 this is a section',
                      index = 1)
 
 # Right side content
 pptx <- ph_with_text(pptx, 
                      type  = "body", 
-                     str   = 'section_v2',
+                     str   = 'section_v2 another section',
                      index = 2)
 
 # Left side content

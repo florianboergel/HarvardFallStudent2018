@@ -14,8 +14,9 @@ options(digits=2)
 setwd("C:/Users/Edward/Desktop/HarvardFallAdmin2018/lessons/9_Nov12_ReportingAutomation/data")
 
 # Identify the file in the directory
-searchPattern <- 'Wk1'
-pth <- list.files(pattern = searchPattern, full.names = T)
+searchPattern <- 'Wk2'
+pth <- list.files(pattern = searchPattern, 
+                  full.names = T)
 pth <- pth[grep('*.csv', pth)]
 df  <- read.csv(pth)
 
